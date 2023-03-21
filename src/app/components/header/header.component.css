@@ -1,0 +1,10 @@
+div {
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to top,#a1b5cb, rgb(255, 255, 255));
+    text-align: left;
+}
+
+app-social{
+    float: right;
+    margin-top: 25px;
+}
