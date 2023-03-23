@@ -20,13 +20,13 @@ div{
 /* Estilo de la Foto De Perfil */
 @media (min-width: 576px) { /*Media Query*/
     #fotodeperfil{       
-        position: absolute;
-        width: 13%;
         border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
-        left: 5%;
-        top: 510px;
-        
+        box-shadow: 3px 3px 3px grey;        
+    }
+    .descripcion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
