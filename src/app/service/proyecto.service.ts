@@ -14,8 +14,8 @@ export class ProyectoService {
 
   constructor(private httpClient : HttpClient) { }
 
-  public lista(): Observable<Proyecto>{
-    return this.httpClient.get<Proyecto>(this.URL + 'lista');
+  public lista(): Observable<Proyecto[]>{
+    return this.httpClient.get<Proyecto[]>(this.URL + 'lista');
   }
 
   public detail(id: number): Observable<Proyecto>{
