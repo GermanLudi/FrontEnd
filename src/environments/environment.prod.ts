@@ -10,5 +10,5 @@ export const environment = {
   },
 //ng build --configuration-production
   production: true,
-  URL: ''
+  //URL: 'https://gdlbackend.onrender.com/'
 };
